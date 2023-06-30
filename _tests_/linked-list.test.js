@@ -42,11 +42,11 @@ describe("Linked Lists", () => {
   });
 
   test("Retrieve the first element", () => {
-    expect(wordList.getFirst().data).toEqual("dog");
+    expect(wordList.getFirst().data).toEqual("the");
   });
 
   test("Retrieve the last element", () => {
-    expect(wordList.getLast().data).toEqual("the");
+    expect(wordList.getLast().data).toEqual("dog");
   });
 
   test("Find an element by key", () => {
@@ -54,11 +54,11 @@ describe("Linked Lists", () => {
   });
 
   test("Retrieve kth element", () => {
-    expect(numList.getKth(1).data).toEqual(0);
+    expect(numList.getKth(1).data).toEqual(2);
   });
 
   test("Retrieve kth from last element", () => {
-    expect(numList.getKthToLast(1).data).toEqual(2);
+    expect(numList.getKthToLast(1).data).toEqual(0);
   });
 
   test("Check if list is empty", () => {
